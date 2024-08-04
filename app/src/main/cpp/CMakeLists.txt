@@ -8,6 +8,7 @@ add_library(cubesimulator SHARED
         CommandHandler.cpp
         Application.h
         Application.cpp
+        android_log.h
 )
 
 find_package(game-activity REQUIRED CONFIG)
